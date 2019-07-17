@@ -14,7 +14,7 @@
 - [x] [CSS Basics](03-css-basics)
 - [x] [Hotel Website Project](https://genesisgabiola.github.io/hbs)
 - [x] [Intro To Responsive Layouts](04-responsive-layouts)
-- [ ] [Intro To Flexbox](05-flexbox)
+- [x] [Intro To Flexbox](05-flexbox)
 - [ ] [Flexbox Website Project](https://genesisgabiola.github.io/bridgeLedger)
 - [ ] [Website Deployment - Shared Host](06-website-deployment)
 - [ ] [More CSS Concepts - Advanced Selectors, Animation & More](07-more-css-concepts)
