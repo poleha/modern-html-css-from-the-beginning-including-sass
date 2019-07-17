@@ -17,7 +17,7 @@
 - [x] [Intro To Flexbox](05-flexbox)
 - [x] [Flexbox Website Project](https://genesisgabiola.github.io/bridgeLedger)
 - [x] [Website Deployment - Shared Host](06-website-deployment)
-- [ ] [More CSS Concepts - Advanced Selectors, Animation & More](07-more-css-concepts)
+- [x] [More CSS Concepts - Advanced Selectors, Animation & More](07-more-css-concepts)
 - [ ] [Mini Projects With Keyframes, Transitions, etc](https://codepen.io/genesisgabiola/)
 - [ ] [CSS Grid]()
 - [ ] [Grid Website]()

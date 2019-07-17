@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>before & after</title>
+  <style>
+    body {
+      background-color: #333;
+      color: #fff;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .is-required:after {
+      padding-left: 2px;
+      color: red;
+      content: '*';
+    }
+
+    header {
+      display: flex;
+      height: 100vh;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 1rem;
+      font-size: 6rem;
+    }
+
+    header:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      background: url('https://source.unsplash.com/1600x900/?nature,water') no-repeat center center/cover;
+      content: '';
+      opacity: 0.5;
+    }
+  </style>
+</head>
+<body>
+  <!-- <label class="is-required" for="name">Name</label> <input type="text"> -->
+  <header>
+    <h1>Hello World</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, sunt.</p>
+  </header>
+
+  <section>
+    <h3>Lorem, ipsum dolor.</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi molestias libero itaque numquam, ullam possimus aperiam quis odit! Alias quos error assumenda magnam iure quo cumque neque adipisci odio quae.</p>
+  </section>
+
+</body>
+</html>
