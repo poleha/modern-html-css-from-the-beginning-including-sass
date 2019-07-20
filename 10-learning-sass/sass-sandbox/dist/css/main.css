@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background: #f4f4f4;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5; }
+
+header {
+  padding: 1rem;
+  background: #333;
+  color: #fff; }
+  header h1 {
+    text-align: center; }
+
+.section {
+  padding: 3rem; }
+  .section h3 {
+    font-size: 2rem; }
+  .section-a {
+    background: steelblue;
+    color: #fff; }
+  .section-b {
+    background: skyblue;
+    color: #000; }
+
+.btn-light, .btn-dark {
+  display: inline-block;
+  padding: 0.7rem 2rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  border: none;
+  cursor: pointer; }
+
+.btn-light {
+  background: #f4f4f4;
+  color: #000; }
+  .btn-light:hover {
+    --webkit-transform: $property;
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+    background: #dbdbdb; }
+
+.btn-dark {
+  background: #333;
+  color: #fff; }
+  .btn-dark:hover {
+    --webkit-transform: $property;
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    background: #4d4d4d; }

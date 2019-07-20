@@ -1,0 +1,75 @@
+@import 'variables';
+@import 'functions';
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: $light-color;
+  color: $dark-color;
+  font-family: $font-stack;
+  line-height: 1.5;
+}
+
+header {
+  padding: 1rem;
+  background: $dark-color;
+  color: set-text-color($dark-color);
+
+  h1 {
+    text-align: center;
+  }
+}
+
+.section {
+  padding: 3rem;
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  &-a {
+    background: $primary-color;
+    color: set-text-color($primary-color);
+  }
+
+  &-b {
+    background: $secondary-color;
+    color: set-text-color($secondary-color);
+  }
+}
+
+%btn-shared {
+  display: inline-block;
+  padding: 0.7rem 2rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn {
+  &-light {
+    @extend %btn-shared;
+    background: $light-color;
+    color: set-text-color($light-color);
+
+    &:hover {
+      @include transform(rotate(20deg));
+      background: darken($light-color, 10%);
+    }
+  }
+
+  &-dark {
+    @extend%btn-shared;
+    background: $dark-color;
+    color: set-text-color($dark-color);
+
+    &:hover {
+      @include transform(rotate(-20deg));
+      background: lighten($dark-color, 10%);
+    }
+  }
+}

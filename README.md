@@ -22,5 +22,5 @@
 - [x] [CSS Grid](08-css-grid)
 - [x] [Grid Website](https://tech-news.netlify.com/)
 - [x] [Website Deployment With Netlify (FREE)](09-website-deployment-with-netlify)
-- [ ] [Learning Sass](10-learning-sass)
+- [x] [Learning Sass](10-learning-sass)
 - [ ] [Portfolio Website With Sass]()
