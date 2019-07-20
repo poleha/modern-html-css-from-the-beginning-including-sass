@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Grid Columns</title>
+  <style>
+    .grid {
+      display: grid;
+      /* grid-template-columns: 200px auto 200px; */
+      /* grid-template-columns: repeat(3, auto); */
+      grid-template-columns: 1fr 2fr 2fr;
+      grid-gap: 1rem;
+    }
+
+    .item {
+      padding: 3rem;
+      background: #f4f4f4;
+      font-size: 1.3rem;
+      font-weight: bold;
+      text-align: center;
+      border: 1px solid #ccc;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-gap: 1.5rem;
+      /* margin-top: 2rem; */
+    }
+  </style>
+</head>
+<body>
+  <div class="grid">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+    <div class="item">Item 4</div>
+    <div class="item">Item 5</div>
+    <div class="item">Item 6</div>
+  </div>
+
+  <main>
+    <section>
+      <h3>Welcome To My Site</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo minima quaerat illum unde dignissimos consectetur pariatur quos ex adipisci obcaecati. Earum quis ipsa ut perspiciatis autem provident aperiam ipsam et.</p>
+    </section>
+    <aside>
+      <h3>Contact Us</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, consectetur.</p>
+      <!-- <ul>
+        <li>Some Company</li>
+        <li>50 Main st, Boston MA</li>
+        <li>something@something.com</li>
+        <li>555-555-5555</li>
+      </ul> -->
+    </aside>
+  </main>
+
+</body>
+</html>
