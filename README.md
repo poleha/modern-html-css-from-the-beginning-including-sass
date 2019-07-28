@@ -1,4 +1,8 @@
-# Modern HTML & CSS From The Beginning (Including Sass)
+# [Modern HTML & CSS From The Beginning (Including Sass)](https://www.udemy.com/course/modern-html-css-from-the-beginning)
+
+Build modern responsive websites & UIs with HTML5, CSS3 & Sass! Learn Flex & CSS Grid
+
+Course Created by Brad Traversy
 
 ## What you'll learn
 - Build Multiple High Quality Website & UI Projects
@@ -24,3 +28,9 @@
 - [x] [Website Deployment With Netlify (FREE)](09-website-deployment-with-netlify)
 - [x] [Learning Sass](10-learning-sass)
 - [x] [Portfolio Website With Sass](https://johndoe-portfolio.netlify.com/)
+
+## Requirements
+- This course is for any developer, beginner to advanced
+
+## Who this course is for:
+- From absolute beginner to seasoned developer
